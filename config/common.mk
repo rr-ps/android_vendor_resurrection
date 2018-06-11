@@ -297,9 +297,9 @@ DEVICE_PACKAGE_OVERLAYS += vendor/rr/overlay/common
 
 PRODUCT_VERSION = 6.0.0
 ifneq ($(RR_BUILDTYPE),)
-RR_VERSION := RR-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)-$(RR_BUILDTYPE)
+RR_VERSION := RRPS-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)-$(RR_BUILDTYPE)
 else
-RR_VERSION := RR-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)
+RR_VERSION := RRPS-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)
 endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
